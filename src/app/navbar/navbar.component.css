@@ -1,0 +1,68 @@
+li{
+
+  font-family: "Anton", sans-serif;}
+  .dropMenu{
+    background-color: #F8F8F8 	;
+  }
+
+  .dropMenu a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #636363;
+    font-family: "Anton", sans-serif;
+    
+  }
+  .dropMenu a:hover{
+  color: #000000 	;
+  font-family: "Anton", sans-serif;
+  }
+
+.test{
+  margin: 0 auto;
+}
+.hrStyle {
+  border: none;
+  border-top: 5px double #674188;
+  color: #674188;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr::after {
+  background: #674188;
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+
+
+@media (max-width: 560px) {
+  .logo img {
+    
+ 
+    width: 200px;
+  }
+}
+@media (max-width: 900px) {
+  .logo img {
+    
+ 
+    width: 300px;
+  }
+}
+@media (max-width: 350px) {
+  .logo img {
+    
+ 
+    width: 200px;
+  }
+}
+@media (max-width: 405px) {
+  .logo img {
+    
+ 
+    width: 200px;
+  }
+}

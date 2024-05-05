@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  border: 0;
+  padding: 40px;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+}
+
+.wide-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+
+.text-container {
+  animation: fadeInUp 2s ease forwards;
+  opacity: 0;
+  animation-delay: 2s;
+}
+
+.image-container {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+  animation-delay: 1s;
+}
+
+@media (max-width: 1024px) {
+  .wide-image {
+    width: 100%;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

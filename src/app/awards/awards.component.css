@@ -1,0 +1,160 @@
+
+.header-award h1{
+    margin: 30px 0px;
+    letter-spacing: 1px;
+}
+
+.container{
+    background: #35475b42;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #4f054b;
+
+}
+.cont-name{
+    width: 100%;
+    height: 35px;
+    font-style: italic;
+    font-family: "Anton", sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont-name h3:hover{
+    margin-top: 2px;
+    scale: 1.001;
+    transition: 1s;
+    cursor: pointer;
+}
+.cont-name h4 a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.cont{
+  margin: 0 auto;
+  height: 700px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80vh;
+  flex-wrap: wrap;
+}
+.item {
+  flex: 1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+  flex-basis: calc(1000px / 5);
+}
+.item:hover{
+    flex-grow: 20;
+    border: 1px red dotted;
+  }
+.item-1 { 
+  background-image: url('../../assets/images/AAnna.jpg');
+}
+.item-2 { 
+  background-image: url('../../assets/images/AEdin.jpg');
+}
+.item-3 { 
+  background-image: url('../../assets/images/AElvyra.jpg');
+}
+.item-4 { 
+  background-image: url('../../assets/images/AMiroslav.jpg');
+}
+.item-5 { 
+  background-image: url('../../assets/images/ANouri.jpg');
+}
+
+
+.under-mt{
+    z-index: 99;
+    width: 60%;
+    margin: 0px auto;
+    margin-top: -100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 30px 5px; 
+    box-shadow: 1px 1px 3px #4f054b;
+    background-image: radial-gradient(#ffffff 50%,#35475b42);
+}
+.under-mt h1{
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    color:#35475B ;
+    
+
+}
+.under-mt .head{
+    font-family: "Work Sans", sans-serif;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.under-mt .list{
+    font-family: "Work Sans", sans-serif;
+    line-height: 60px;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+
+
+
+.list button a{
+    text-decoration: none;
+    color: #4f0c8a;
+}
+
+
+button {
+  border: 1px #4f0c8a solid;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  width: 70%;
+  text-transform: uppercase;
+  cursor: pointer;
+  transform: skew(-1deg);
+}
+
+ span {
+  display: inline-block;
+  font-size: 18px;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 50%;
+  left: 50%;
+  background: #674188;
+  border-radius: 5px;
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+button {
+  color: #4f0c8a;
+}
+
+button span:hover {
+  color: #ffffff;
+}
+
+button:hover::before {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}

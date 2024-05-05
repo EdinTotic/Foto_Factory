@@ -1,0 +1,101 @@
+.contacting{
+    background:#f8f8f8 ;
+    font-family: "Work Sans", sans-serif;
+    
+}
+
+.header-text{
+    width: 60%;
+    margin: 0px auto;
+
+}
+.header-text h1{
+    text-align: center;
+    letter-spacing: 3px;
+}
+.text-center{
+    line-height: 20px;
+}
+.form-and-address{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.form{
+    background-color: #ffffff;
+    border: 1px dotted #674188;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.address h5{
+    font-family:"Anton", sans-serif ;
+    font-variant:small-caps ;
+    letter-spacing: 1px;
+
+
+    
+}
+.address{
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px dotted #674188;
+}
+
+.address div a{
+    text-decoration: none;
+    color: #674188;
+}
+
+.main {
+    margin-top:5px ;
+    margin-bottom: 30px;
+}
+
+
+.btncolor{
+  color:#4a008b;
+  border: 1.5px solid #4a008b;
+}
+
+button {
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  width: 100%;
+  text-transform: uppercase;
+  cursor: pointer;
+  transform: skew(-1deg);
+}
+
+ .btncolor span {
+  display: inline-block;
+  font-size: 18px;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 50%;
+  left: 50%;
+  background: #674188;
+  border-radius: 5px;
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+button:hover {
+  color: #fff;
+}
+
+button:hover::before {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .card {
+    border: 0;
+  }
+  
+  .wide-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 767px) {
+    .wide-image {
+      max-width: 100%;
+    }
+  }

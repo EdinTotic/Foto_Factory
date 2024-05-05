@@ -1,0 +1,68 @@
+.hrStyle{
+
+    border: none;
+    border-top: 5px double #674188 	;
+    color: #674188 	;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+  }
+  hr::after {
+    background: #674188 	;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+  }    
+  .footerHr{
+    border-top: 5px double #674188 	;
+    color: #674188 	
+  }
+  .iconsS{
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5px;
+   margin: 0 5px 0 5px;
+
+  }
+
+  .iconsS a{
+    margin: 0 1.5rem;
+  }
+  .address h5{
+    font-family:"Anton", sans-serif ;
+    font-variant:small-caps ;
+    letter-spacing: 1px;
+}
+.address div a{
+    text-decoration: none;
+    color: #674188;
+}
+.main {
+    margin-top:5px ;
+    margin-bottom: 30px;
+}
+.background{
+    background-color: #F8F8F8 	;
+}
+.contactLink{
+    font-family: "Anton", sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000000;
+}
+.contactLink{
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5px;
+    margin: 0 5px 0 5px;
+    font-size: 24px;
+}
+.contactLink div a{
+    margin: 0 1.5rem;
+}
+.copy{
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+}

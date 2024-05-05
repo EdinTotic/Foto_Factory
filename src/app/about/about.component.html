@@ -1,0 +1,56 @@
+<div class="content">
+  <h1 class="headlinePage">About Us</h1>
+
+  <!-- Image start -->
+
+  <div class="image">
+    <img src="./assets/images/ATeamPic.jpg" alt="" />
+  </div>
+
+  <!-- Image end -->
+
+  <!-- Text About us start -->
+
+  <div class="ContainerText">
+    <h2 class="headlineText">Who are we?</h2>
+    <h6>
+      Welcome to Foto Factory, where we blend passion with professionalism to
+      capture life's moments with finesse. Our diverse team of photographers
+      brings unique styles and visions to landscapes, events, portraits, and
+      commercial projects. With a focus on authenticity and connection, we craft
+      timeless images that resonate. Trusted for reliability and exceptional
+      service, Foto Factory is your partner in preserving memories. From
+      milestone celebrations to everyday beauty, let us tell your story through
+      our lens. Join us on a journey of creativity, inspiration, and
+      storytelling. Thank you for considering Foto Factory. Let's create
+      something extraordinary together.
+    </h6>
+  </div>
+
+  <!-- Text About us end -->
+
+  <!-- carts photographers start -->
+
+  <div class="divCards">
+    <h2 class="headlineCards">Our Photographers:</h2>
+
+    <div class="containerCards">
+      <div *ngFor="let val of photographers">
+        <div class="Cards2">
+          <img src="./assets/images/{{ val.img }}" alt="" class="imgCarts" />
+          <div class="divName">
+            <h3 class="nameCarts">{{ val.name }}</h3>
+            <div class="PAndLink">
+              <h6 class="type">{{ val.type }}</h6>
+              <a routerLink="{{ val.link }}"
+                ><h6 class="p-1 text-center">Show More</h6></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- carts photographers end -->
+</div>
